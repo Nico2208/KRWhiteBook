@@ -1,0 +1,11 @@
+Text input y output en C se manejan como streams de caracteres. Un stream de texto es una secuencia de caracteres divididos en
+lineas. Cada linea de un stream de texto está compuesta por cero o mas caracteres seguidos por un caracter de nueva linea. 
+getchar y putchar son dos de las funciones de la librería estandar de C que se encargan del input y output de caracteres.
+getchar y putchar se encargan de escribir y leer un caracter a la vez. 
+
+c = getchar() lee el siguiente caracter ingresado desde un text stream. c almacena el siguiente caracter de un input.
+
+putchar imprime un caracter cada vez que es llamado.
+
+putchar(c) en este caso lee e imprime en pantalla el caracter almacenado en la variable c.
+
